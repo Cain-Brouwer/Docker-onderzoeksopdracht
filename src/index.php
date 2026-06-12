@@ -6,7 +6,7 @@ $pass = 'geheim123';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
-    echo "<h1 style='color: green;'>🎉 Connectie succesvol! Docker netwerkkopie werkt!</h1>";
+    echo "<h1 style='color: green;'>🎉 Connectie succesvol! Docker netwerkkopie werkt super goed!</h1>";
 } catch (PDOException $e) {
     echo "<h1 style='color: red;'>❌ Connectie mislukt:</h1> <p>" . $e->getMessage() . "</p>";
 }
